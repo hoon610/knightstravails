@@ -1,10 +1,10 @@
 body{
     text-align: center;
-    background-color: rgb(117, 33, 33);
+    background-color: rgb(141, 85, 33);
 }
 .cell{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     border: 1.5px solid gray;
     border-style: inset;
 }
@@ -17,11 +17,24 @@ body{
     background-color: rgb(198, 200, 202);
 }
 .center{
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 img{
-    height: 75px;
-    width: 75px;
+    height: 45px;
+    width: 45px;
+}
+.display-div{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(179, 175, 175);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+table{
+    margin-top: 3px;
 }

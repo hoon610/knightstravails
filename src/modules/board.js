@@ -42,13 +42,14 @@ const gameBoard = () =>{
             cellNode.appendChild(knightImg);
         }
     });
-
-
-
-
-
     const domBoard = document.querySelector('.board');
     domBoard.appendChild(chessTable);
 }
+const resetBoard = (function () {
+    const resetButton = document.querySelector(".reset");
+    resetButton.addEventListener("click", function (){
+        location.reload();
+    });
+})();
 
 export {gameBoard};
