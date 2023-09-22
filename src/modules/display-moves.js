@@ -10,6 +10,7 @@ const displayMoves = (path, squareCoord) => {
         const coordList = document.createElement("p");
         moveNumber.textContent = `The shortest path was ${path.length - 1} moves!`;
         coordList.innerHTML = squareCoord.join("<br>");
+        console.log(squareCoord)
         displayDiv.appendChild(moveNumber);
         displayDiv.appendChild(coordList);  
 };
